@@ -61,8 +61,8 @@ class Database extends Config
         'hostname'    => 'database-3.crhv1zv05bqm.us-west-2.rds.amazonaws.com',
         'username'    => 'admin',
         'password'    => '987654321',
-        'database'    => 'blog_db',
-        'DBDriver'    => 'SQLite3',
+        'database'    => 'blog_dbtest',
+        'DBDriver'    => 'MySQLi',
         'DBPrefix'    => 'db_',  // Needed to ensure we're working correctly with prefixes live. DO NOT REMOVE FOR CI DEVS
         'pConnect'    => false,
         'DBDebug'     => (ENVIRONMENT !== 'production'),
